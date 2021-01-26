@@ -2,8 +2,123 @@
 <html>
     <head>
 <link rel="stylesheet" type="text/css" href="stylesheet.css">
+	    <style>body {
+font-family: Courier New, Verdana, Arial;
+background-color: black;
+color: white;
+margin:30px;
+background-image:
+url("https://variety.com/wp-content/uploads/2020/02/friends.jpg?w=681&h=383&crop=1");
+background-repeat: no-repeat;
+background-attachment: scroll;
+background-position: center;
+padding-top: 50px;
+
+}
+
+
+h1 {
+background-color: black;
+font-size: 100px;
+border: 10px;
+border-color: red;
+border-style: dashed;
+text-align: center; 
+letter-spacing: 20px;
+ }
+
+
+h2, h3 
+{
+font-size: 60;
+text-decoration: aqua wavy underline;
+font-style: italic;
+text-align: center;
+padding-bottom: 20px;
+
+}
+
+.friends {
+font-size: 25px;
+direction: ltr;
+text-indent: 30%;
+word-spacing: 10px;
+
+}
+
+A:link { color: red; 
+text-decoration:none;
+background-color:gray;
+
+}
+A:visited { color: aqua} 
+A:hover { color: yellow; } 
+
+table
+{color:red
+
+  }
+
+
+ol {
+list-style: none;
+text-align: center;
+border: 1px;
+
+}
+
+li {
+border-color: white;
+border-style: dotted;
+border-left-style:solid;
+border-right-style:solid;
+border-left-width: 4px;
+border-right-width: 4px;
+}
+
+
+
+
+ 
+	    </style>
         <title>Friends: Antonia Koscak i Gabriela Dud (Seminarski rad iz kolegija Programski alati II)</title>
-        <script src="java.js"></script>
+        <script src="java.js">
+	    window.onload =  function() {
+ document.getElementById("charachters").innerHTML = "Main characters:";
+};
+    date=new Date()
+        document.write("Today is " + date)
+
+function firstFunction() {
+  alert("Real name: David Schwimmer");
+}
+function secondeFunction() {
+  alert("Real name: Courteney Cox");
+}
+function thirdFunction() {
+  alert("Real name: Matt LeBlanc");
+}
+function fourthFunction() {
+  alert("Real name: Jennifer Aniston");
+}
+function fifthFunction() {
+  alert("Real name: Lisa Kudrow");
+}
+function sixthFunction() {
+  alert("Real name: Matthew Perry");
+}
+
+
+function provjera_duzine(duzina_unosa){
+ var duzina =
+document.actor.tekst.value.length;
+ if (duzina >= 3){
+    alert("Friends says 'Hello'.");
+ }
+ else {
+    alert("Smelly cat");
+ }
+}</script>
        
 
     </head>
